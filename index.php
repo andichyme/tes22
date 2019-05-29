@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "<ystudio>";
-    $user = "<chyme>";
-    $pass = "<Cinta2723>";
-    $db = "<ystudioserver>";
+    $host = "ystudio.database.windows.net";
+    $user = "chyme";
+    $pass = "Cinta2723";
+    $db = "ystudioserver";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
